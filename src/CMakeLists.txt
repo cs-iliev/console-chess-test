@@ -1,2 +1,2 @@
-add_executable(chess chess/chess.cpp)
+add_executable(src chess/chess.cpp)
 target_link_libraries(src LINK_PUBLIC Threads::Threads)
