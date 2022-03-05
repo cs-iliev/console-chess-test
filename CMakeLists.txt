@@ -60,7 +60,7 @@ if (WITH_OPENMP)
     endif()
 endif()
 
-add_subdirectory (chess)
-include_directories("chess")
+add_subdirectory (src)
+include_directories("src")
 
-set_property(TARGET chess PROPERTY CXX_STANDARD 11)
+set_property(TARGET src PROPERTY CXX_STANDARD 11)
